@@ -5,12 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
+        import
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family:  Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px(usar), pt, pc
+            Medidas Relativas
+            em(tamanho natural usar), ex, rem, vw, vh, % 
+            16px geralmente = 1em
+            */
+            font-size: 3em;
+            font-weight: 100;
+            /* lighter normal bold bolder ou 100 - 900*/
+            font-style: italic;
+            text-decoration: underline;
+            
         }
 
-        h1, h2 {
+        h1 {
             font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Times New Roman', sans-serif;
+        }
+
+        h2 {
+            font: lighter 2em Arial, sans-serif;
         }
     </style>
 </head>
