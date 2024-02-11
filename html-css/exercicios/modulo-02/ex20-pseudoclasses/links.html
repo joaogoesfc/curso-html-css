@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+            SELETORES PERSONALIZADOS
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::   = pseudo-element
+            >    = children
+        */
+        body  {
+            font-family: Arial, Helvetica, sans-serif;
+
+            a {
+                color: rgb(255, 0, 0);
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: brown;
+                text-decoration: underline;
+                
+            }
+
+            a:visited {
+                color: rgb(64, 107, 107);
+            }
+
+            a:active {
+                color: yellow;
+            }
+
+            .especial::after {
+                content: ' <=';
+            }
+
+            .especial::before{
+                content: '=> ';
+                text-decoration: none;
+                font-weight: lighter;
+                color: rgb(0, 0, 0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/joaogoesfc" class="especial" target="_blank">Github</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do Curso em Vídeo</a></li>
+    </ul>
+    
+</body>
+</html>
