@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goup in tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(63, 80, 80);
+            padding: 4px;
+            box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.568);
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: normal;
+            margin-right: 50px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 3px 3px 4px #000000a3;
+        }
+
+        section#noticias {
+            background-color: gray;
+            padding: 16px 4px;
+        }
+
+        article > aside {
+            background-color: rgb(109, 108, 108);
+            padding: 5px;
+            font-weight: bold;
+        }
+        article > aside > p {
+            margin: 0px;
+        }
+
+        footer#rodape {
+            background-color: black;
+            font-weight: normal;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: opx;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assunto">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a expedita sequi eligendi accusantium fugit reprehenderit quia. Eaque placeat adipisci, a, saepe aut veniam incidunt aliquid non architecto et fugiat?</p>
+                <aside>
+                    <p>Artigo escrito por João Góes</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer id="rodape">
+        <p>Desenvolvido por curso em vídeo</p>
+    </footer>
+    <footer>
+        <div id="bola"></div>
+    </footer>
+</body>
+</html>
