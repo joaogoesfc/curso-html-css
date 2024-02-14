@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        body {
+            height: 97vh;
+            background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover; /* contain - cover - auto(padrão) - 100%*/
+
+            background-attachment: fixed;
+
+            /* SHORTHAND - background 
+                color > image > position > repeat > [size] > attachment
+                size não está funcionando, deve ser pulado
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+
+        }
+
+        main {
+            background-color: white;
+            max-width: 700px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda debitis dolorem sit doloribus error accusamus? Fugiat sapiente vel nemo dolorem? Totam, aperiam! Mollitia accusamus consequuntur provident aliquid quod commodi voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id excepturi molestiae dicta rem eos reprehenderit exercitationem, quis, explicabo pariatur assumenda iure praesentium nam, provident asperiores magni aliquid blanditiis deleniti quas!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda debitis dolorem sit doloribus error accusamus? Fugiat sapiente vel nemo dolorem? Totam, aperiam! Mollitia accusamus consequuntur provident aliquid quod commodi voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id excepturi molestiae dicta rem eos reprehenderit exercitationem, quis, explicabo pariatur assumenda iure praesentium nam, provident asperiores magni aliquid blanditiis deleniti quas!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda debitis dolorem sit doloribus error accusamus? Fugiat sapiente vel nemo dolorem? Totam, aperiam! Mollitia accusamus consequuntur provident aliquid quod commodi voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id excepturi molestiae dicta rem eos reprehenderit exercitationem, quis, explicabo pariatur assumenda iure praesentium nam, provident asperiores magni aliquid blanditiis deleniti quas!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda debitis dolorem sit doloribus error accusamus? Fugiat sapiente vel nemo dolorem? Totam, aperiam! Mollitia accusamus consequuntur provident aliquid quod commodi voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id excepturi molestiae dicta rem eos reprehenderit exercitationem, quis, explicabo pariatur assumenda iure praesentium nam, provident asperiores magni aliquid blanditiis deleniti quas!</p>
+    </main>
+    
+</body>
+</html>
