@@ -1,0 +1,103 @@
+@charset "UTF-80";
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header {
+    background-color: rgb(48, 35, 20);
+    color: white;
+    text-align: center;
+    
+}
+
+header h1 {
+    padding-top: 50px;
+    font-size: 5em;
+    font-variant: small-caps;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+#s2 {
+    background-image: url('../imagens/imagem-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-attachment: fixed;
+    
+}
+
+#s2 pre {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+#s4 {
+    color: white;
+    background-image: url('../imagens/imagem-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+
+#s4 pre {
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+a {
+    color: white;
+    background-color: rgb(48, 35, 20);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(107, 79, 47);
+    transition: .1s;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
