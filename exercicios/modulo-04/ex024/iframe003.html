@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 100vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, ipsam sint architecto distinctio dicta, eligendi tempora placeat soluta excepturi aperiam molestias accusantium ipsum laboriosam autem amet debitis est vero in.</p>
+
+        <ul>
+            <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li> <!--iframe deve ter um name-->
+            <li><a href="iframe002.html" target="frame">Segunda página</a></li>
+            <li><a href="iframe003.html" target="frame">Terceira página</a></li>
+        </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quisquam iste officiis, alias ullam, veritatis, dicta voluptates excepturi corrupti similique maxime earum magni accusantium nesciunt unde esse velit illo. Ipsum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum mollitia maxime sint, neque adipisci deserunt animi ipsam voluptate, dolorum temporibus quas cupiditate ut ab non nostrum assumenda excepturi nesciunt saepe.</p>
+
+    <iframe srcdoc="<h1> Escolha uma das opções acima" frameborder="0" name="frame">
+        <p>Seu navegador não é compatível</p>
+    </iframe>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam vitae aperiam non beatae! Aut quibusdam dicta a! Architecto, id qui. Consequatur esse non laudantium, aspernatur odit earum distinctio doloribus dignissimos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere dolores ea reiciendis alias, voluptatum, delectus voluptas mollitia esse atque placeat, ducimus eos fugit quae cumque eum dicta? Ex, nulla cupiditate.</p>
+    <p><a href="paginas-extras/pag004.html">Página 04</a></p>
+</body>
+</html>
