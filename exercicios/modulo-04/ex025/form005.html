@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="fem" value="F"> <label for="fem">Feminino</label>
+            <input type="radio" name="sexo" id="masc" value="M"> <label for="masc">Masculino</label>p
+        </fieldset>
+        <fieldset>
+            <legend>Filmes favoritos</legend>
+            <input type="checkbox" name="filmnarnia" id="filmnarnia"> <label for="filmnarnia">Narnia</label> <br>
+
+            <input type="checkbox" name="filmleao" id="filmleao"> <label for="filmleao">Rei leão</label> <br>
+
+            <input type="checkbox" name="filmkgpanda" id="filmkgpanda" checked> <label for="filmkgpanda">Kung fu panda</label>
+        </fieldset>
+        
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
