@@ -21,6 +21,7 @@
 
     menu > ul > li > a {
         padding-left: 20px;
+        border: none;
     }
 
     main {
